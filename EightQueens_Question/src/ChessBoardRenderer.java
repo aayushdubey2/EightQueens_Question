@@ -3,6 +3,8 @@ public class ChessBoardRenderer {
 
 		// WRITE YOUR LOGIC HERE...
 		System.out.println(square);
-		return true;
+		if(((square/8)+(square%8))%2==0)
+		return false;
+		return true;	
 	}
 }
